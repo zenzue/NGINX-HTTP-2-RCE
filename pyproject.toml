@@ -1,0 +1,15 @@
+[project]
+name = "nginx-http2-rce"
+version = "1.0.0"
+description = "Non-destructive NGINX HTTP/2 RCE exposure assessment for CVE-2026-123007 and CVE-2026-123633"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Aung Myat Thu" },
+]
+license = "MIT"
+keywords = ["nginx", "security", "http2", "cve", "scanner", "openresty"]
+dependencies = []
+
+[tool.uv]
+package = false
