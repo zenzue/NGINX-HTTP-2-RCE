@@ -45,7 +45,7 @@ Inspect install scripts and follow your organization's approval process before r
 
 ```bash
 # Clone your repository (replace the URL with your actual Git remote)
-git clone <YOUR-REPOSITORY-URL> nginx-http2-rce
+git clone https://github.com/zenzue/NGINX-HTTP-2-RCE nginx-http2-rce
 cd nginx-http2-rce
 
 # Create project environment using the lockfile
